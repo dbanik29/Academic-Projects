@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+    <meta charset="UTF-8">
+    <title>Sign Up Form Concept</title>
+    
+    
+    <link rel='stylesheet prefetch' href='https://fonts.googleapis.com/css?family=Open+Sans:400,300'>
+    <link rel='stylesheet prefetch' href='https://fonts.googleapis.com/icon?family=Material+Icons'>
+
+    <link rel="stylesheet" href="../layout/styles/signup.css">
+    <link href="../layout/styles/layout.css" rel="stylesheet" type="text/css" media="all">
+
+
+   
+   <?php include('errors.php'); ?> 
+</head>
+
+<body>
+  <div class="cotn_principal">
+
+    <div class="wrapper row1">
+  <header id="header" class="hoc clear"> 
+    <!-- ################################################################################################ -->
+    <div id="logo" class="fl_left">
+      <h1><a href="../index.html" style="text-decoration: none;color: white">ApartmentRent.com </a></h1>
+    </div>
+    <!-- ################################################################################################ -->
+  </header>
+</div>
+
+
+<div class="cont_centrar">
+
+  <div class="cont_login">
+<div class="cont_info_log_sign_up">
+      <div class="col_md_login">
+<div class="cont_ba_opcitiy" style="margin-top: 25px">
+        
+ <!--  <h2>LOGIN</h2>  
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p> 
+  <button class="btn_login" onclick="cambiar_login()">LOGIN</button>
+  </div> 
+  </div>
+<div class="col_md_sign_up">
+<div class="cont_ba_opcitiy">  -->
+
+
+  <h2>SIGN UP</h2>
+  <p>By signing up for an account you agree to our Terms and Conditions</p>
+
+  <button class="btn_sign_up" onclick="cambiar_sign_up()">SIGN UP</button>
+  <button class="btn_sign_up"  ><a href="login.html" style="text-decoration: none;color: white">I am already a member !</a></button>
+</div>
+  </div>
+       </div>
+
+    
+    <div class="cont_back_info">
+       <div class="cont_img_back_grey">
+       <img src="../images/demo/img1.jpeg" alt="" />
+       </div>
+       
+    </div>
+<div class="cont_forms" >
+    <div class="cont_img_back_">
+       <img src="../images/demo/img1.jpeg" alt="" />
+       </div>
+ <div class="cont_form_login">
+<a href="#" onclick="ocultar_login_sign_up()" ><i class="material-icons">&#xE5C4;</i></a>
+   <h2>LOGIN</h2>
+ <input type="text" placeholder="Email" />
+<input type="password" placeholder="Password" />
+<button class="btn_login" onclick="cambiar_login()">LOGIN</button>
+  </div>
+  
+   <div class="cont_form_sign_up">
+      <a href="#" onclick="ocultar_login_sign_up()"><i class="material-icons">&#xE5C4;</i></a>
+      <h2>SIGN UP</h2>
+      <input style="margin-left:111px ;text-align: center;" type="text" placeholder="User" />
+      <input style="margin-left:111px ;text-align: center;" type="text" placeholder="Email" />
+      <input style="margin-left:111px ;text-align: center;" type="password" placeholder="Password" />
+      <input style="margin-left:111px ;text-align: center;" type="password" placeholder="Confirm Password" />
+      <button class="btn_sign_up" onclick="cambiar_sign_up()">SIGN UP</button>
+
+  </div>
+
+    </div>
+    
+  </div>
+ </div>
+
+
+ <div class="wrapper row5" style="color: white">
+  <div id="copyright" class="hoc clear" style="margin-top: 200px"> 
+    <!-- ################################################################################################ -->
+    <p class="fl_left">Copyright &copy; 2017 - All Rights Reserved - <a href="#" style="text-decoration: none;color: white">ApartmentRent.com</a></p>
+    <p class="fl_right">Last Update - <a target="_blank" title="Update">December.17</a></p>
+    <!-- ################################################################################################ -->
+  </div>
+</div>
+
+
+</div>
+  
+
+
+
+    <script  src="../layout/scripts/signindex.js"></script>
+
+</body>
+</html>
